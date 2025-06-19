@@ -1,0 +1,111 @@
+/* Font dasar */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 30px;
+    background: #f0f0f0;
+}
+
+/* Tampilan box utama */
+header,
+.form,
+.daftar {
+    background: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header (judul) */
+header {
+    background: #FFE4C4;
+    text-align: center;
+}
+
+/* Judul */
+h1, h2 {
+    margin: 0;
+}
+
+/* Form input agar berada di tengah */
+.form form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Input teks */
+input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Tombol submit */
+button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #E9967A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Daftar tugas */
+ul {
+    padding: 0;
+}
+
+/* Item dalam daftar */
+li {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Tampilan setiap form tugas */
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Status tugas */
+.status.Selesai {
+    color: green;
+    font-weight: bold;
+}
+
+.status.Belum {
+    color: red;
+    font-weight: bold;
+}
+
+/* Judul tugas */
+.judul {
+    flex: 1;
+}
+
+/* Tombol hapus */
+.btn {
+    background: crimson;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
